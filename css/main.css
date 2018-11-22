@@ -54,3 +54,19 @@ body {
 .robot-head-right {
   left: 50%;
 }
+
+.robot:hover .robot-head-left {
+  top: 5px;
+  left: 0;
+  right: auto;
+}
+
+.robot:hover .robot-head-right {
+  top: 5px;
+  right: 0;
+  left: auto;
+}
+
+.robot:hover .robot-brain {
+  top: 40px;
+}
